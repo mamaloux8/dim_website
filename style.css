@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+body {
+    font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.background-slider {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+
+.background-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: scale(1);
+    transition:
+        opacity 2s ease-in-out,
+        transform 8s linear;
+}
+
+.background-slider img.active {
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__link {
+    min-width: 20%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0;
+}
+
+.header audio {
+    margin-right: 10px;
+    opacity: 50%;
+}
+
+.link__element {
+    list-style: none;
+    margin-left: 0;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+/*/ Page accueil /*/
+.main__content {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile__image {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.main__presentation {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile__link {
+    width: fit-content;
+    padding: 0;
+}
+
+.link__image {
+    width: 20px;
+}
+
+/*/ Page créations /*/

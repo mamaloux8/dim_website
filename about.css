@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    margin: 0;
+}
+
+.about__section {
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+
+}
+
+.about__container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__text,
+.about__bubble {
+    height: 20%;
+    margin: 0;
+    padding: 20px;
+}
+
+.about__bubble {
+    color: black;
+    border-radius: 10%;
+    background: url("./img/bulle_gauche.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.about__contact {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}

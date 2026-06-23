@@ -1,0 +1,69 @@
+body * {
+    color: green;
+}
+
+.creations__main {
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title {
+    align-self: center;
+}
+
+.creations {
+    width: 40%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.creations__header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    background-color: white;
+}
+
+.creations__link,
+.creations__copyrights {
+    padding-left: 1px;
+    margin-left: 5px;
+}
+
+.creations__link:hover {
+    color: white;
+}
+
+.trait {
+    font-size: small;
+    font-weight: 900;
+    margin-right: 2px;
+
+    animation: clignoter 0.9s infinite;
+}
+
+@keyframes clignoter {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.creations__header span {
+    color: black;
+    margin-right: 2px;
+}
