@@ -1,4 +1,16 @@
 [
+     {
+        "date": "07.17.2026",
+        "titre": "Embark on a Nature Adventure",
+        "texte": [
+            "This is DIM's new album !",
+            "You follow the story of a hero who must save his kingdom from a handsome vampire,<br>who may or may not be inspired by a real one.",
+            "Listen to it !"
+        ],
+        "image": "./img/nature adventure cover.png",
+        "lien": "https://youtu.be/UW5VdXMYOFs"
+    },
+
     {
         "date": "06.01.2026",
         "titre": "Blindekuh - OFFICIAL RELEASE",
